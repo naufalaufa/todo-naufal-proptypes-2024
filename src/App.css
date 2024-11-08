@@ -1,0 +1,15 @@
+.grid-table-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (min-width: 600px) {
+  .grid-table-container {
+    display: grid;
+    align-items: center;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
